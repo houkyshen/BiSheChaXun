@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+    <TextView
+            android:id="@+id/question"
+            android:text="题目"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textStyle_Size18"
+            android:layout_gravity="left"
+            android:textColor="#202020"
+    />
+    <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+                android:id="@+id/option1"
+                android:text="题目"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/option2"
+                android:text="题目"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/option3"
+                android:text="题目"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/option4"
+                android:text="题目"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/answer"
+                android:text="题目"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+    </RadioGroup>
+    <TextView
+            android:id="@+id/key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="答案"
+            style="@style/textStyle_Size18"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/shen/houky/bishechaxun/DBOpenHelper.kt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/shen/houky/chaxun/extension.kt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/option1.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/option2.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/option3.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/option4.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/question.txt" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

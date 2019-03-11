@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">知识查询与考试系统</string>
+    <string name="learn">工艺学习</string>
+    <string name="query">知识查询</string>
+    <string name="exam">知识考试</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/scut"
+            android:scaleType="centerCrop"/>
+    <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textStyle_Size20"
+            android:textColor="@color/qq_blue"
+            android:text="软件创作者：申鸿基"
+            android:layout_marginTop="20dp"/>
+    <TextView
+            android:id="@+id/tutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textStyle_Size20"
+            android:textColor="@color/qq_blue"
+            android:text="指导老师：方利国"
+            android:layout_marginTop="10dp"/>
+    <com.daimajia.numberprogressbar.NumberProgressBar
+            android:id="@+id/numberProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            custom:progress_unreached_color="#CCCCCC"
+            custom:progress_reached_color="@color/qq_blue"
+
+            custom:progress_unreached_bar_height="5dp"
+            custom:progress_reached_bar_height="10dp"
+
+            custom:progress_text_size="15sp"
+            custom:progress_text_color="#3498DB"
+            custom:progress_text_offset="1dp"
+            custom:progress_text_visibility="visible"
+
+            custom:progress_max="100"
+            custom:progress_current="40"
+
+            android:layout_margin="20dp"
+    />
+</LinearLayout>

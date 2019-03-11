@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        id="@+id/tab_learn"
+        icon="@mipmap/ic_conversation"
+        title="@string/learn" />
+    <tab
+        id="@+id/tab_query"
+        icon="@mipmap/ic_contact"
+        title="@string/query" />
+    <tab
+        id="@+id/tab_exam"
+        icon="@mipmap/ic_dynamic"
+        title="@string/exam" />
+</tabs>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+    <Button
+            android:id="@+id/question"
+            android:text="题目"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textStyle_Size18"
+            android:layout_gravity="left"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:background="@drawable/btn_send_normal"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="3dp"
+    />
+    <RadioGroup android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <RadioButton
+                android:id="@+id/option1"
+                android:text="题目"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/option2"
+                android:text="题目"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/option3"
+                android:text="题目"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/option4"
+                android:text="题目"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/answer"
+                android:text="题目"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+</LinearLayout>
