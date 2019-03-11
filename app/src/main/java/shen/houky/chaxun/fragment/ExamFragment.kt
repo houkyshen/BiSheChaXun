@@ -12,7 +12,7 @@ import org.jetbrains.anko.support.v4.toast
 import org.litepal.LitePal
 import org.litepal.extension.deleteAll
 import org.litepal.extension.findAll
-import shen.houky.chaxun.ExamAdapter
+import shen.houky.chaxun.adapter.ExamAdapter
 import shen.houky.litepal.*
 import shen.houky.chaxun.headerAndfooter.HeaderOrFooterViewExam
 import shen.houky.chaxun.randomString

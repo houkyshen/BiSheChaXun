@@ -15,7 +15,7 @@ import org.litepal.LitePal
 import org.litepal.extension.deleteAll
 import org.litepal.extension.find
 import org.litepal.extension.findAll
-import shen.houky.chaxun.QueryAdapter
+import shen.houky.chaxun.adapter.QueryAdapter
 import shen.houky.chaxun.randomString
 import shen.houky.chaxun.randomTiMu
 import shen.houky.chaxun.readFile

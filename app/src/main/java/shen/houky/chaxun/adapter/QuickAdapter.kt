@@ -1,4 +1,4 @@
-package shen.houky.chaxun
+package shen.houky.chaxun.adapter
 
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
